@@ -1,0 +1,8 @@
+{
+    "group": "REGISTRY_NAME Registry",
+    "group_info": {
+        "name": "REGISTRY_NAME Registry"
+    },
+    "repo_type": "registry",
+    "issue_summary_to": [""]
+}
