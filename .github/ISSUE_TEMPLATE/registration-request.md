@@ -15,9 +15,9 @@ Please confirm that:
 
 If so, please provide the details of your request below.
 
-* Field Name:
+* Field name:
 * Status:
-* Specification Document(s):
+* Specification document(s):
 * Comments:
 
 Any additional information (this will not be included in the registry)?
