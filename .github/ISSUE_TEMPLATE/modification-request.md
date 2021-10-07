@@ -1,10 +1,13 @@
 ---
 name: Modification Request
-about: For requests to modify a registered REGISTRY_VALUE_NAME
+about: For requests to modify a registered HTTP Field Name
 title: ''
 labels: modification
 assignees: ''
 
 ---
 
-REGISTRY_BULLETS
+* Field name:
+* Status:
+* Specification document(s):
+* Comments:
