@@ -24,7 +24,7 @@ If your reference is from an Open Source project, community or commerical group,
 
 A registration request consists of the following template:
 
-* **Field name**: The requested field name. It must conform to the field-name syntax defined in [Section 5.1 of the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.names), and should be restricted to just letters, digits, and hyphen ('-') characters, with the first character being a letter.
+* **Field name**: The requested field name. It must conform to the field-name syntax defined in [Section 5.1 of the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.names), and should be restricted to just letters, digits, and hyphen (`-`) characters, with the first character being a letter.
 * **Status**: "permanent", "provisional", "deprecated", or "obsoleted"
 * **Specification document(s)**: Reference to the document that specifies the field, preferably including a URI that can be used to retrieve a copy of the document. Optional but encouraged for provisional registrations. An indication of the relevant section(s) can also be included, but is not required.
 * **Comments**: Additional information, such as about reserved entries (optional).
@@ -33,17 +33,17 @@ A registration request consists of the following template:
 
 [The HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#considerations.for.new.field.names) advises authors of specifications defining new fields to choose a short but descriptive field name. Short names avoid needless data transmission; descriptive names avoid confusion and "squatting" on names that might have broader uses.
 
-To that end, limited-use fields (such as a header confined to a single application or use case) are encouraged to use a name that includes that use (or an abbreviation) as a prefix; for example, if the Foo Application needs a Description field, it might use "Foo-Desc"; "Description" is too generic, and "Foo-Description" is needlessly long.
+To that end, limited-use fields (such as a header confined to a single application or use case) are encouraged to use a name that includes that use (or an abbreviation) as a prefix; for example, if the Foo Application needs a description field, it might use `Foo-Desc`; `Description` is too generic, and `Foo-Description-Field` is needlessly long.
 
-While the field-name syntax is defined to allow any token character, in practice some implementations place limits on the characters they accept in field-names. To be interoperable, new field names should constrain themselves to alphanumeric characters, "-", and ".", and should begin with a letter. For example, the underscore ("_") character can be problematic when passed through non-HTTP gateway interfaces.
+While the field-name syntax is defined to allow any token character, in practice some implementations place limits on the characters they accept in field-names. To be interoperable, new field names should constrain themselves to alphanumeric characters, `-`, and `.`, and should begin with a letter. For example, the underscore (`_`) character can be problematic when passed through non-HTTP gateway interfaces.
 
-Field names ought not be prefixed with "X-"; see [BCP178](https://www.rfc-editor.org/rfc/rfc6648.html) for further information.
+Field names ought not be prefixed with `X-`; see [BCP178](https://www.rfc-editor.org/rfc/rfc6648.html) for further information.
 
-Other prefixes are sometimes used in HTTP field names; for example, "Accept-" is used in many content negotiation headers, and "Content-" is used as explained in [Section 6.4](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#content). These prefixes are only an aid to recognizing the purpose of a field, and do not trigger automatic processing.
+Other prefixes are sometimes used in HTTP field names; for example, `Accept-` is used in many content negotiation headers, and `Content-` is used as explained in [Section 6.4 of HTTP](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#content). These prefixes are only an aid to recognizing the purpose of a field, and do not trigger automatic processing.
 
 ### Choosing the Right Status
 
-Fields defined by standards-defined specificaions will have a status of 'permanent'; most other fields will have a status of 'provisional.' See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
+Fields defined by standards-defined specificaions will have a status of "permanent"; most other fields will have a status of 'provisional.' See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
 
 ### Suitable Specifiction Documents
 
