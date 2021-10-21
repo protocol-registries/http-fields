@@ -4,7 +4,7 @@ This repository's issues list manages requests to add and change entries in the 
 
 Your [Experts](https://tools.ietf.org/html/rfc8126#section-4.6) are currently [@mnot](https://github.com/royfielding) and [@royfielding](https://github.com/royfielding).
 
-See [the specification](https://www.ietf.org/archive/id/draft-ietf-httpbis-semantics-19.html#name-field-extensibility) for more information about the registration process and requirements for registration.
+See [the HTTP specification](https://www.ietf.org/archive/id/draft-ietf-httpbis-semantics-19.html#name-field-extensibility) for more information about the registration process and requirements for registration.
 
 ## When to Register
 
