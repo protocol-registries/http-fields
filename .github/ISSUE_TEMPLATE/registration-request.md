@@ -9,7 +9,7 @@ assignees: ''
 
 Please confirm that:
 
-* [ ] You have read and understood the [requirements for registration](RFC_REQUIREMENTS_LINK).
+* [ ] You have read and understood the [requirements for registration](https://www.ietf.org/archive/id/draft-ietf-httpbis-semantics-19.html#name-field-extensibility).
 * [ ] You have checked [the registry](https://www.iana.org/assignments/http-fields/) and found no current value that meets your needs.
 * [ ] Your specification reference URL is stable; ideally, managed by a widely-recognised standards development organisation (e.g., published as an RFC). Otherwise, please give additional information below.
 
