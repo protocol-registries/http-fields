@@ -4,7 +4,7 @@ This repository's issues list manages requests to add and change entries in the 
 
 Your [Expert](https://tools.ietf.org/html/rfc8126#section-4.6) is currently [EXPERT_GITHUB_ID](EXPERT_GITHUB_LINK).
 
-See [RFC_NUMBER](RFC_LINK) for more information; in particular, the [requirements for registration](RFC_REQUIREMENTS_LINK).
+See [the specification](https://www.ietf.org/archive/id/draft-ietf-httpbis-semantics-19.html#name-field-extensibility) for more information about the registration process and requirements for registration.
 
 ## When to Register
 
