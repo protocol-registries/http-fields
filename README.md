@@ -43,7 +43,7 @@ Other prefixes are sometimes used in HTTP field names; for example, `Accept-` is
 
 ### Choosing the Right Status
 
-Fields defined by standards-defined specificaions will have a status of "permanent"; most other fields will have a status of 'provisional.' See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
+Fields defined by standards-defined specificaions will have a status of "permanent"; most other fields will have a status of "provisional." See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
 
 ### Suitable Specifiction Documents
 
