@@ -14,7 +14,7 @@ Registration is intended to:
 2. Allow the documentation associated with a field to be discovered
 3. Offer guidance regarding a field's definition during the process of registration
 
-It's not necessary to register fields that are only used in controlled deployments -- in particular, applications that don't need to interoperate with other implementations. This includes internal and private uses of HTTP, and HTTP APIs whose clients are controlled by the service. However, these fields can still be registered (typically, as _provisional_) if you wish.
+It's not necessary to register fields that are only used in controlled deployments -- in particular, applications that don't need to interoperate with other implementations. This includes internal and private uses of HTTP, and HTTP APIs whose clients are specific to that service. However, these fields can still be registered (typically, as _provisional_) if you wish.
 
 Generally, a registration request should be made when your document is mature enough for wide review. If your reference is an Internet-Draft, that means when it's adopted by a stream (e.g., the IETF stream, the Independent stream), not beforehand. If your reference is in another standards body, a request can be made before the document is finalised.
 
