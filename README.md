@@ -20,7 +20,7 @@ Generally, a registration request should be made when your document is mature en
 
 If your reference is from an Open Source project, community or commerical group, a request can be made once your document becomes public, but anticipatory requests are discouraged, and may be refused or delayed.
 
-## Creating a Registration Reqeust
+## Creating a Registration Request
 
 A registration request consists of the following template:
 
