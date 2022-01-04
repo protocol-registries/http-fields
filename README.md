@@ -45,6 +45,8 @@ Other prefixes are sometimes used in HTTP field names; for example, `Accept-` is
 
 Fields defined by standards-defined specifications will have a status of "permanent"; most other fields will have a status of "provisional." See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
 
+As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6), field names that are no longer in use should be marked as "obsoleted", and those whose use is not recommended should have a status of "decprecated". 
+
 ### Suitable Specification Documents
 
 Specification documents are required for permanent registration, and encouraged for provisional registrations. They need to be publicly available and reasonably stable. 
