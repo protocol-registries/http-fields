@@ -16,9 +16,9 @@ Registration is intended to:
 
 It's not necessary to register fields that are only used in controlled deployments -- in particular, applications that don't need to interoperate with other implementations. This includes internal and private uses of HTTP, and HTTP APIs whose clients are specific to that service. However, these fields can still be registered (typically, as _provisional_) if you wish.
 
-Generally, a registration request should be made when your document is mature enough for wide review. If your reference is an Internet-Draft, that means when it's adopted by a stream (e.g., the IETF stream, the Independent stream), not beforehand. If your reference is in another standards body, a request can be made before the document is finalised.
+Generally, a registration request should be made when your document is mature enough for wide review. If your reference is an Internet-Draft, that means when it's adopted by a stream (e.g., the IETF stream, the Independent stream), not beforehand. If your reference is in another standards body, a request can be made before the document is finalized.
 
-If your reference is from an Open Source project, community or commerical group, a request can be made once your document becomes public, but anticipatory requests are discouraged, and may be refused or delayed.
+If your reference is from an Open Source project, community or commercial group, a request can be made once your document becomes public, but anticipatory requests are discouraged, and may be refused or delayed.
 
 ## Creating a Registration Request
 
@@ -43,9 +43,9 @@ Other prefixes are sometimes used in HTTP field names; for example, `Accept-` is
 
 ### Choosing the Right Status
 
-Fields defined by standards-defined specificaions will have a status of "permanent"; most other fields will have a status of "provisional." See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
+Fields defined by standards-defined specifications will have a status of "permanent"; most other fields will have a status of "provisional." See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
 
-### Suitable Specifiction Documents
+### Suitable Specification Documents
 
 Specification documents are required for permanent registration, and encouraged for provisional registrations. They need to be publicly available and reasonably stable. 
 
