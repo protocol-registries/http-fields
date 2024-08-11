@@ -43,7 +43,7 @@ Other prefixes are sometimes used in HTTP field names; for example, `Accept-` is
 
 ### Choosing the Right Status
 
-Fields defined by standards-defined specifications will have a status of "permanent"; most other fields will have a status of "provisional." See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details.
+Fields defined by standards-defined specifications will have a status of "permanent"; most other fields will have a status of "provisional." See [the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry) for details. Note that we use [this list](https://www.iana.org/assignments/iesg-recognized-organizations/iesg-recognized-organizations.xhtml#organizations) to determine what is a recognised standards organisation.
 
 As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6), field names that are no longer in use should be marked as "obsoleted", and those whose use is not recommended should have a status of "deprecated". 
 
