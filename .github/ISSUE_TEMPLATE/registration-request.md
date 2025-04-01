@@ -17,6 +17,7 @@ If so, please provide the details of your request below.
 
 * Field name:
 * Status:
+* Structured Type:
 * Specification document(s):
 * Comments:
 
