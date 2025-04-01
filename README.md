@@ -26,6 +26,7 @@ A registration request consists of the following template:
 
 * **Field name**: The requested field name. It must conform to the field-name syntax defined in [Section 5.1 of the HTTP specification](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.names), and should be restricted to just letters, digits, and hyphen (`-`) characters, with the first character being a letter.
 * **Status**: "permanent", "provisional", "deprecated", or "obsoleted"
+* **Structured Type**: If your field is a Structured Field, one of "Item", "Dictionary", or "List". See [RFC 9651](https://httpwg.org/specs/rfc9651.html)
 * **Specification document(s)**: Reference to the document that specifies the field, preferably including a URI that can be used to retrieve a copy of the document. Optional but encouraged for provisional registrations. An indication of the relevant section(s) can also be included, but is not required.
 * **Comments**: Additional information, such as about reserved entries (optional).
 
@@ -54,6 +55,8 @@ Specification documents are required for permanent registration, and encouraged 
 ### Defining Field Semantics and Other Considerations
 
 A checklist of important [considerations for new fields](https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#considerations.for.new.fields) is available in the HTTP specification.
+
+New fields are strongly encouraged to be [Structured Fields](https://httpwg.org/specs/rfc9651.html).
 
 ## Submitting Your Request
 
